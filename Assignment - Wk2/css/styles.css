@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+} /* end body */
+
+* {
+  box-sizing: border-box;  /* box sizes include padding, etc. */
+  //margin: 0;
+  //padding: 0;	
+} /* end all */
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+} /* end h1 */
+
+#box {
+  background-color: gray;
+  //padding: 10px;
+  border: 2px solid black;
+  width: 33%;
+  height: 150px;
+  overflow: hidden
+}
+
+#dish {
+  background-color: #ff99cc;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 30%;
+  float: right;
+  clear: left;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#box_content {
+  padding: 10px;
+  float: left;
+}
+
