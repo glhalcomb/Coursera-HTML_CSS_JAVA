@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Week 2 Assignment</title>
+	<!-- Let app control handheld zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Point to CSS stylesheet file -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Week 2 Assignment</title>
 </head>
+
 <body>
-	
+
+  <h1>Our Menu</h1>
+
+  <div class="row">
+
+    <div class="col-lg-4 col-md-6"> <!-- 3 columns in desktop (4/12) and 4 in tablet (6/12)-->
+      <div class="item"> <!-- Container for menu items -->
+  	    <div class="dish" id="dish1">Chicken</div> <!-- Container for specific dishes -->
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusadae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </div>
+       </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="item">
+  	    <div class="dish" id="dish2">Beef</div>
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusadae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </div>
+       </div>
+    </div>
+
+    <div class="col-lg-4 col-md-12"> <!-- Creates 100% width for 3rd item in tablet mode. Not very universal! -->
+      <div class="item">
+  	    <div class="dish" id="dish3">Sushi</div>
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusadae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </div>
+      </div>
+
+  </div> <!-- End row class -->
+
 </body>
+
 </html>
